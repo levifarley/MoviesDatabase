@@ -1,0 +1,152 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+a:link {
+    color: #00bc8c;
+}
+
+a:hover {
+    color: #007053;
+}
+
+a:visited {
+    color: #00bc8c;
+}
+
+.float-right {
+    float: right;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+}
+
+/* Overwrite Bootstrap for custom theme */
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: 1px solid #000;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #222;
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #303030;
+}
+
+.navbar-inverse {
+    background-color: #303030;
+}
+
+.panel-primary {
+    border-color: #444;
+}
+
+.panel-primary .panel-heading {
+    background-color: #444;
+    border-color: #444;
+}
+
+.panel-primary .panel-body {
+    border-color: #444;
+    background-color: #303030;
+    padding-bottom: 50px;
+}
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #444;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-content img {
+    border: #000 2px solid;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+}
+
+#list span {
+    color: #00bc8c;
+    cursor: pointer;
+}
+
+#list span:hover {
+    color: #007053;
+    cursor: pointer;
+}
+
+form label {
+    margin-top: 10px;
+}
+
