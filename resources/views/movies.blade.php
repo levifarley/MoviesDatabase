@@ -39,6 +39,7 @@ if (!empty($success_message)) {
                             echo '<button type="button" class="btn btn-success float-right margin-top-25" disabled>Add Movie (Disabled as Guest)</button>';
                         }
                         ?>
+                        @csrf
                 </div>
             </form>
         </div>
